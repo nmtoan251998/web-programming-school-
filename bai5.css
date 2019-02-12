@@ -1,3 +1,7 @@
+.text--bold {
+    font-weight: 900;
+}
+
 .heading {
     width: 100%;
     display: block;
@@ -16,6 +20,10 @@
     width: 100%;
 }
 
+.table__content:nth-child(2) {
+    border-spacing: 10px;
+}
+
 .table-head {
     width: 100%;
     color: green;
@@ -24,4 +32,16 @@
     background-color: pink;
     font-size: 120%;
     text-transform: uppercase;
+}
+
+.table__list {
+    list-style-type: circle;
+}
+
+.table__feedback {    
+    background-color: gold;    
+}
+
+.table__feedback-text {
+    min-width: 500px;    
 }
