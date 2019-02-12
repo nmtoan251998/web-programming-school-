@@ -1,0 +1,27 @@
+.heading {
+    width: 100%;
+    display: block;
+    background-color: pink;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+}
+
+.food-target {
+    outline: 2px solid black;        
+}
+
+.table__content {
+    width: 100%;
+}
+
+.table-head {
+    width: 100%;
+    color: green;
+    text-decoration: underline;
+    text-align: left;
+    background-color: pink;
+    font-size: 120%;
+    text-transform: uppercase;
+}

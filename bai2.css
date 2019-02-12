@@ -1,0 +1,23 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: .5;
+    font: Georgia;
+}
+
+.heading--chocolate {
+    color: chocolate;
+}
+
+.heading-3 {    
+    padding-top: 50px;
+}
+
+.contact__study-item:not(:last-child), .contact__info-item:not(:last-child) {
+    padding-bottom: 16px;
+}
