@@ -1,0 +1,99 @@
+/**
+ * index.scss
+ .containerAdd any styles you want here!
+ */
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: #f5f5f5;
+    box-sizing: border-box;
+    background-image: url(../img/music-flower.jpg);
+    background-position: center center;
+    background-size: contain;    
+  }
+  
+  .container {
+    font-size: 1.6rem;
+    color: #426765;
+  }
+  
+  .header {
+    background-color: #AEDFDA;
+    text-align: right;
+  }
+  
+  .header__primary {
+    text-transform: capitalize;
+    margin: 0rem 0rem 1rem;
+    word-spacing: 1px;
+  }
+  
+  .header__content {
+    margin: 0;
+    word-spacing: 3px;
+  }
+  
+  .sidebar {
+    background-color: #AEDFDA;
+    padding: .5rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    float: left;
+    border: 5px solid #426765;
+    border-radius: 10px;
+  }
+  
+  .sidebar__heading {
+    text-transform: capitalize;
+  }
+  
+  .sidebar__menu--item {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .main {
+    width: 60%;
+    margin: 2rem 0 0 auto;
+  }
+  
+  .blog {
+    margin-top: 1rem;
+    background-color: #C0E6E2;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid #AEDFDA;
+  }
+  
+  .blog__header-text {
+    text-transform: capitalize;
+  }
+  
+  .blog__header-date {
+    border-bottom: 2px dashed #426765;
+  }
+  
+  .blog__content-img {
+    float: right;
+  }
+  
+  .blog__content-more {
+    clear: right;
+    text-decoration: none;
+    color: #426765;
+  }
+  

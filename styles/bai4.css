@@ -1,0 +1,35 @@
+section {
+    margin: 20px 10px;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+}
+
+.header__img {
+    display: inline-block;
+}
+
+.header__text {
+    display: inline-block;
+    text-align: right;
+    line-height: .5;
+    vertical-align: top;
+}
+
+.info {
+    margin: 80px auto;
+    width: 100%;
+}
+
+.table {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.table th {
+    font-weight: 500;
+    text-align: right;
+    padding-right: 20px;
+}
