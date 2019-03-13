@@ -1,0 +1,22 @@
+{
+  "name": "web-programming-school-",
+  "version": "1.0.0",
+  "description": "Web programming CTU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmtoan251998/web-programming-school-.git"
+  },
+  "author": "noat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmtoan251998/web-programming-school-/issues"
+  },
+  "homepage": "https://github.com/nmtoan251998/web-programming-school-#readme",
+  "devDependencies": {
+    "sass": "^1.17.2"
+  }
+}

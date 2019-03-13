@@ -10,44 +10,97 @@
     <h1>Personal information</h1>
 
     <table>
-        <thead>
+        <tbody>
             <tr>
                 <th scope="row">
                     <label for="name">Enter name*: </label>
-                </th>
-                <th scope="row">
-                    <label for="sex">Sex*: </label>
-                </th>
+                    <td>
+                        <input type="text" name="name" id="name" required>
+                    </td>
+                </th>                
             </tr>
-        </thead>
-        <tbody>
+
             <tr>
-                <td>
-                    <input type="text" name="name" id="name" required>
-                </td>
+                <th scope="row" style="text-align: right">
+                    <label for="sex">Sex*: </label>
+                    <td>
+                        <input type="checkbox" name="male" id="sex">Male
+                        <input type="checkbox" name="female" id="sex">Female
+                        <input type="checkbox" name="other" id="sex">Other
+                    </td>
+                </th>
             </tr>
-        </tbody>
-    </table>
 
-    
-    
+            <tr>
+                <th scope="row">
+                    <label for="email">Email address*: </label>
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </th>                
+            </tr>
 
+            <tr>
+                <th scope="row">
+                    <label for="dob">Birthday*: </label>
+                    <td>
+                        <input type="date" name="dob" id="dob" required>
+                    </td>
+                </th>                
+            </tr>
 
-    
-    <input type="checkbox" name="male" id="sex">Male
-    <input type="checkbox" name="female" id="sex">Female
-    <input type="checkbox" name="other" id="sex">Other
-    <br>
-    <br>
+            <tr>
+                <th scope="row">
+                    <label for="add">Street address*: </label>
+                    <td>
+                        <input type="text" name="add" id="add" required>
+                    </td>
+                </th>                
+            </tr>
 
-    <label for="name">Enter name*: </label>
-    <input type="text" name="name" id="name" required>
-    <br>
-    <br>
+            <tr>
+                <th scope="row">
+                    <label for="city">City*: </label>
+                    <td>
+                        <input type="text" name="city" id="city" required>
+                    </td>
+                </th>                
+            </tr>
 
-    <label for="name">Enter name*: </label>
-    <input type="text" name="name" id="name" required>
-    <br>
-    <br>
+            <tr>
+                <th scope="row">
+                    <label for="region">Region*: </label>
+                    <td>
+                        <select name="region" id="region">
+                            <option value="vn">Vietnam</option>
+                            <option value="us">United State</option>
+                            <option value="jp">Japan</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </td>
+                </th>                
+            </tr>
+
+            <tr>
+                <th scope="row">
+                    <label for="zip">Zip code*: </label>
+                    <td>
+                        <input type="text" name="zip" id="zip" maxlength="5" required>
+                    </td>
+                </th>                
+            </tr>
+            
+            <tr>
+                <th scope="row">                                            
+                    <td>
+                        <button id="btn-finished">Finished</button>                    
+                        <button id="btn-clear">Clear</button>
+                    </td>
+                </th>                
+            </tr>
+        </tbody>        
+    </table>            
+
+    <script src="/script/buoi2.2-bai5.js"></script>
 </body>
 </html>
