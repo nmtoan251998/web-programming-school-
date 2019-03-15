@@ -1,0 +1,44 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absPos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin clipText {
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;    
+}
+
+@mixin boxText {
+    background-image: linear-gradient(
+            rgba($color-primary-1, .85),
+            rgba($color-primary-2, .65),
+            transparent);
+    border: 2px solid $color-gray-dark;
+    border-left: 10px solid rgba($color-secondary, .55);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 40%;
+    padding: 1rem;        
+    margin: 2.5rem 5rem 2.5rem 2.5rem;
+    display: inline-block;
+
+    &:hover {
+        transform: scale(1.1) translate(15px, -10px);
+        border: 2px solid transparent;
+        border-left: 5px solid $color-white;
+        border-radius: 0;
+    }
+}

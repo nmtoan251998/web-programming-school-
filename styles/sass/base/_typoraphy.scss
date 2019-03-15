@@ -1,0 +1,31 @@
+.heading-1 {
+    font-size: $font-size-xxxl;
+    font-weight: 900;
+    text-transform: capitalize;    
+}
+
+.header__title {
+    @include clipText;
+    
+    background-image: linear-gradient(to left,
+    rgba($color-secondary-2, .95),
+    rgba($color-primary, .95),
+    rgba($color-tertiary-1, .95));          
+}
+
+.rating__percent {
+    font-size: $font-size-xxxxl;
+    font-weight: 900;
+    
+    @include clipText;
+
+    background-image: linear-gradient(to right bottom,    
+    rgba($color-secondary-2, .95),
+    rgba($color-tertiary-1, .95));
+}
+
+.sidebar__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $font-size-l;    
+}
