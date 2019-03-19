@@ -40,5 +40,5 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Submitted");
 
         clearInput();
-    })
+    })    
 })

@@ -16,7 +16,7 @@
                     <th scope="row">
                         <label for="name">Enter name*: </label>
                         <td>
-                            <input type="text" name="name" id="name" required>
+                            <input class="input__group" type="text" name="name" id="name" placeholder="Input your name" required onfocus="this.value=''">
                         </td>
                     </th>                
                 </tr>
@@ -25,9 +25,9 @@
                     <th scope="row" style="text-align: right">
                         <label for="sex">Sex*: </label>
                         <td>
-                            <input type="checkbox" name="male" id="sex">Male
-                            <input type="checkbox" name="female" id="sex">Female
-                            <input type="checkbox" name="other" id="sex">Other
+                            <input class="input__group" type="checkbox" name="male" id="sex">Male
+                            <input class="input__group" type="checkbox" name="female" id="sex">Female
+                            <input class="input__group" type="checkbox" name="other" id="sex">Other
                         </td>
                     </th>
                 </tr>
@@ -36,7 +36,7 @@
                     <th scope="row">
                         <label for="email">Email address*: </label>
                         <td>
-                            <input type="email" name="email" id="email">
+                            <input class="input__group" type="email" name="email" id="email" placeholder="Input email" onfocus="this.value=''">
                         </td>
                     </th>                
                 </tr>
@@ -45,7 +45,7 @@
                     <th scope="row">
                         <label for="dob">Birthday*: </label>
                         <td>
-                            <input type="date" name="dob" id="dob" required>
+                            <input class="input__group" type="date" name="dob" id="dob" required onfocus="this.value=''">
                         </td>
                     </th>                
                 </tr>
@@ -54,7 +54,7 @@
                     <th scope="row">
                         <label for="add">Street address*: </label>
                         <td>
-                            <input type="text" name="add" id="add" required>
+                            <input class="input__group" type="text" name="add" id="add" placeholder="Input street name" required>
                         </td>
                     </th>                
                 </tr>
@@ -63,7 +63,7 @@
                     <th scope="row">
                         <label for="city">City*: </label>
                         <td>
-                            <input type="text" name="city" id="city" required>
+                            <input class="input__group" type="text" name="city" id="city" placeholder="Input city name" required onfocus="this.value=''">
                         </td>
                     </th>                
                 </tr>
@@ -81,12 +81,12 @@
                         </td>
                     </th>                
                 </tr>
-    
+                    
                 <tr>
                     <th scope="row">
                         <label for="zip">Zip code*: </label>
                         <td>
-                            <input type="text" name="zip" id="zip" maxlength="5" required>
+                            <input class="input__group" type="text" name="zip" id="zip" maxlength="5" placeholder="Input zip code" required onfocus="this.value=''">
                         </td>
                     </th>                
                 </tr>
@@ -103,6 +103,6 @@
         </table>                
     </form>
     
-    <script src="/script/buoi2.2-bai5.js"></script>
+    <script src="/script/buoi2.2-bai9.js"></script>
 </body>
 </html>
